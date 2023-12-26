@@ -2,7 +2,7 @@
 # Subscribe YouTube Channel For Amazing Bot @JISSHU-BOT 
 # Ask Doubt on telegram @KingVJ01
 
-FROM python:3.10.8-slim-buster
+FROM python:3.12.1-slim-buster
 
 RUN apt update && apt upgrade -y
 RUN apt install git -y
