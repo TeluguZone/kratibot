@@ -10,7 +10,7 @@ COPY requirements.txt /requirements.txt
 
 RUN cd /
 RUN pip3 install -U pip && pip3 install -U -r requirements.txt
-RUN mkdir /JISSHU_BOT
-WORKDIR /JISSHU_BOT
+RUN mkdir /JONSNOWXBOT
+WORKDIR /JONSNOWXBOT
 COPY . .
 CMD ["bash", "start.sh"]
